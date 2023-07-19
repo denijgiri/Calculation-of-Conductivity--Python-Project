@@ -1,0 +1,7 @@
+Hi, 
+I am working as a student researach assistant in department of physics ( Terahertz group) in University of Marburg. I am working on the project to mearsure the conductivity of thin film cells
+using Terahertz Time Domain Spectroscopy Measurement Data. I have been using python as a programming language to visualize and analyze the data taken from the experiment conducted in the lab.
+I have uploaded the work and code so far I have done on the separate file in this repository. Basically, from the lab we got the data in the format Time(Pico second) and amplitude. Initially
+I have present data in time domain format and in frequency domain by doing fourier transfom which is also known as frequency spectrum.  I have carried out the phase correction and  windowing 
+of the time domain spectrum. The code used is shown in the different file with in this repository. With the help of that I have been able to calculate the the conductivity( Real and Imaginary
+part) using Tinkham formula of thin film approximation. I have also calculated the standard deviation to measure the how data differs from the mean value.

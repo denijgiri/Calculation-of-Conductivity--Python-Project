@@ -14,6 +14,7 @@ def drude_model(freqs,mobility,N,mass_eff,e):
     plt.plot(freqs,sigma_cc.real,color='blue',label = 'Real Part')
     plt.xlabel('Frequency[Hz]')
     plt.ylabel('Conductivity[Ω-1cm-1]')
+    plt.ylim(-50,680)
     print(tau)
     plt.legend()
     plt.show()

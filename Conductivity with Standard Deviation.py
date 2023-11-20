@@ -168,6 +168,7 @@ for i in range(10):
     
 #print(sigma)
 average = np.mean(results,axis=0)
+average = average / 100
 std = np.std(results,axis=0)
 print(results)
 
